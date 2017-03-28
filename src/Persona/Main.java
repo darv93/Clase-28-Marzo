@@ -12,7 +12,7 @@ package Persona;
 public class Main {
     public static void main(String[] args) {
     Profesor p = new Profesor("f","123","poo");
-    double notas[] = {5,5,5,5};
+    double notas[] = {2.4,4,3,3,3.5};
     Estudiante e = new Estudiante(notas,p,"V","456","poo");
         //Direccion estudiante
         System.out.println(e.getDireccion());
